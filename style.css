@@ -1,0 +1,163 @@
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+#header-img{
+    max-width: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 60vw;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+#nav-bar{
+    width: 40vw;
+}
+
+#subtitle{
+    text-align: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email{
+    width: 275px;
+    height: 25px;
+    margin-bottom: 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+#submit{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1c40f;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.featr{
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-solid{
+    color: #ed7117;
+    font-size: 40px;
+}
+
+.icon{
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#howItWorks{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#pricing{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.products{
+    border: 1px solid #808080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    border-radius: 4px;
+    margin: 16px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .products{
+        width: 300px;
+    }
+    #pricing{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.title{
+    background-color: #ddd;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products ol{
+    list-style: none;
+    line-height: 24px;
+    padding-left: 0;
+}
+
+.btn{
+    background-color: #f1c40f;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    min-width: 90px;
+}
